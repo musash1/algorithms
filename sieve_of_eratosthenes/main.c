@@ -6,7 +6,6 @@ int main() {
   scanf("%d", &m);
   int n = m - 1;
   int numbers[n]; 
-
   
   for (int i = 0; i < n; i++) {
     numbers[i] = 2 + i; 
