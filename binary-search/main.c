@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int binarySearc(int nums[], int n, int target) {
+int binarySearch(int nums[], int n, int target) {
   int low = 0, high = n - 1;
   while (low <= high) {
     int mid = (low + high) / 2;
@@ -22,7 +22,7 @@ int main() {
   int num = 7;
   int n = sizeof(nums) / sizeof(nums[0]) - 1;
  
-  int res = binarySearc(nums, n, num);
+  int res = binarySearch(nums, n, num);
   printf("Index: %d", res); 
   
   return 0;
